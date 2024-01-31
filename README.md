@@ -55,7 +55,7 @@ Draft version for reviewing only, all rights reserved. Will be updated and open-
 Please refer to test_*.jl file for the meaning of each input parameter 
 * Dataset List
     * We include the used UCI dataset in the ./data/ folder. Dataset number from 1 to 68, each dataset is randomly splitted 10 times in the proportion of 75% training and 25% testing (without tuning) and 50% training, 25% validation and 25% testing (with tuning).
-    * The detailed information of each dataset is in the ./data/dataset_info.pdf file. Due to the size limit, we include 10 splits for dataset 1-64 and the first split for the dataset 65 with one million samples. For the datasets larger than 1 million samples, you can find the link in the ./data/dataset_info.pdf file.
+    * The detailed information of each dataset is in the ./data/dataset_info.pdf file. Due to the size limit, we include 10 splits for dataset 1-64. For the datasets larger than 1 million samples, you can find the link in the ./data/dataset_info.pdf file.
   
 * Examples for MH-DEOCT without alpha tuning
 ```shell
